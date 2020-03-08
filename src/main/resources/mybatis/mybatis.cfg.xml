@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 实体类起别名 -->
+    <typeAliases>
+    	<!-- 单个定义：alias为别名，type为具体实体类-->
+    	<!-- <typeAlias alias="users" type="com.app.po.Users" /> -->
+    	<!-- 批量定义(别名为实体类下的类名，第一个字母大小写都可以)：不管有多少实体类，这样直接就全部把别名命名好了 -->
+        <!-- <package name="com.yunke.entity"/> -->
+    </typeAliases>
+</configuration>
